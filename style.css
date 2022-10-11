@@ -1,0 +1,30 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+}
+
+canvas{
+    
+    animation-name: shadow-fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+@keyframes shadow-fade{
+    0%{box-shadow: 1px 1px 38px orangered; border-radius: 10px;}
+    12.5%{box-shadow: 1px 1px 38px orange;}
+    25%{box-shadow: 1px 1px 38px yellow; border-radius: 60px;}
+    37.5%{box-shadow: 1px 1px 38px yellowgreen;}
+    50%{box-shadow: 1px 1px 38px lightseagreen; border-radius: 110px; }
+    42.5%{box-shadow: 1px 1px 38px blue;}
+    75%{box-shadow: 1px 1px 38px purple; border-radius: 60px; }
+    87.5%{box-shadow: 1px 1px 38px hotpink;}
+    100%{box-shadow: 1px 1px 38px red; border-radius: 10px;}
+}
+
+body{
+background-size: cover;}
